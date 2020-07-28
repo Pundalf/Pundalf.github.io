@@ -1,6 +1,7 @@
 header{
     margin-top: 5%;
     text-align: center;
+    box-shadow: 5px 5px 4px #373A36;
 }
 nav{
     border-radius: 15px 15px 0 0;
@@ -34,28 +35,80 @@ nav a:hover{
     color: #373A36;;
 }
 body{
-    box-shadow: 5px 5px 2px black;
+    box-shadow: 5px 5px 2px #373A36;
     background-color: #E6E2DD;
-    padding: 0 20% 5% 20%;
+    padding: 0 20% 1% 20%;
 }
 main{
-    padding: 10px 20%;
+    padding: 40px 0;
     height: auto;
     padding-bottom: 100px;
     color: #E6E2DD;
     background-color: #D48166;
+    box-shadow: 5px 5px 4px #373A36;
 }
 h1{
-    text-shadow: 0px 2px black;
+    text-shadow: 0px 2px #373A36;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-shadow: 0px 2px #373A36;
+}
 main p{
-    text-shadow: 0px 2px black;
+    text-shadow: 0px 2px #373A36;
     text-align: center;
     font-size: 35px;
+    
 }
 footer{
     text-align: center;
 }
+main a{
+    background-color: #373A36;
+    position: relative;
+    left: 0px;
+    margin: 100px 50px 0px;
+    padding: 15px 30px;
+    display: inline-block;
+}
+main a img{
+    border: solid 3px black;
+    border-radius: 50%; 
+}
+a{
+    text-decoration: none;
+    color: #E6E2DD;
+}
+a:hover{
+    opacity: 0.90;
+}
+footer{
+    padding-top: 100px;
+}
+.left{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 0px 20px 50px 0px;
+    padding: 35px 45px 25px;
+    float: left;
+    max-width: 250px;
+    background-color: #373A36;
+}
+aside img{
+    border: solid 3px black;
+}
+.right{
+    display:inline;
+}
+aside img{
+    margin-bottom: 40px;
+}
+#rocketImg{
+    margin-top: 60px;
+}
+
