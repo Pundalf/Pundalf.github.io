@@ -68,7 +68,7 @@ main p{
 footer{
     text-align: center;
 }
-main a{
+main>a{
     background-color: #373A36;
     position: relative;
     left: 0px;
