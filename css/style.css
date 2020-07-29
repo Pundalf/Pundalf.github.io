@@ -70,9 +70,7 @@ footer{
 main>a{
     border-radius: 5%;
     background-color: #373A36;
-    position: relative;
-    left: 0px;
-    margin: 100px 53px 0px;
+    margin: 0 4.6%;
     padding: 15px 30px;
     display: inline-block;
 }
@@ -131,8 +129,17 @@ div p{
     max-width: 250px;
     box-shadow: 5px 5px 4px #373A36;
 }
-#renderpage{
-    height: auto;
+.programmingpage{
+    margin-left: 177px;
 }
-
+h2 img{
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 4px #373A36;
+}
+h2 a{
+    border-radius: 0 0 25% 25%;
+    padding: 8px 50px;
+    background-color: #373A36;
+}
 
