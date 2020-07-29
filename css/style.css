@@ -35,7 +35,6 @@ nav a:hover{
     color: #373A36;;
 }
 body{
-    box-shadow: 5px 5px 2px #373A36;
     background-color: #E6E2DD;
     padding: 0 20% 1% 20%;
 }
@@ -69,14 +68,15 @@ footer{
     text-align: center;
 }
 main>a{
+    border-radius: 5%;
     background-color: #373A36;
     position: relative;
     left: 0px;
-    margin: 100px 50px 0px;
+    margin: 100px 53px 0px;
     padding: 15px 30px;
     display: inline-block;
 }
-main a img{
+main>a img{
     border: solid 3px black;
     border-radius: 50%; 
 }
@@ -111,4 +111,27 @@ aside img{
 #rocketImg{
     margin-top: 60px;
 }
+.gallery{
+    float:left;
+    max-width: 100%;
+}
+.desc{
+    text-align: center;
+    font-size: 25px;
+}
+div a img{
+    margin-left: 90px;
+    border: solid 2px black;
+}
+div p{
+    background-color: #373A36;
+    border: solid 2px black;
+    margin-left: 90px;
+    max-width: 250px;
+    box-shadow: 5px 5px 4px #373A36;
+}
+#renderpage{
+    height: 1400px;
+}
+
 
