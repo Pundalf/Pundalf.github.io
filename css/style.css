@@ -6,21 +6,22 @@ header{
 nav{
     border-radius: 15px 15px 0 0;
     border-top: 1px solid black;
-    border-bottom: 3px solid black;;
-    padding: 50px;
+    border-bottom: 3px solid black;
+    padding: 5%;
     background-image: url("../img/wall-2396055_1920.jpg");
 }
 nav a{
-    margin: 0 15px;
+    margin: 0 2%;
     opacity: 0.9;
-    font-size: 20px;
+    font-size: 2em;
     background-color: #373A36;
     display: inline-block;
     border: 4px solid #373A36;
+    position: relative;
+    padding-bottom: 5%;
     border-radius: 50%;
-    min-width: 135px;
-    min-height: 70px;
-    padding-top: 55px;
+    min-width: 14%;
+    padding-top: 5%;
     text-align: center;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -36,12 +37,12 @@ nav a:hover{
 }
 body{
     background-color: #E6E2DD;
-    padding: 0 20% 1% 20%;
+    padding: 0 5% 1% 5%;
 }
 main{
-    padding: 40px 0;
+    padding: 2em 0%;
     height: auto;
-    padding-bottom: 100px;
+    padding-bottom: 10%;
     color: #E6E2DD;
     background-color: #D48166;
     box-shadow: 5px 5px 4px #373A36;
@@ -50,18 +51,18 @@ h1{
     text-shadow: 0px 2px #373A36;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 3.5em;
 }
 h2{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 3em;
     text-shadow: 0px 2px #373A36;
 }
 main p{
     text-shadow: 0px 2px #373A36;
     text-align: center;
-    font-size: 35px;
+    font-size: 2.5em;
     
 }
 footer{
@@ -70,13 +71,17 @@ footer{
 main>a{
     border-radius: 5%;
     background-color: #373A36;
-    margin: 0 4.6%;
-    padding: 15px 30px;
+    margin: 2%;
+    padding: 1em 2% 1em 2%;
     display: inline-block;
 }
 main>a img{
+    max-width: 100%;
     border: solid 3px black;
     border-radius: 50%; 
+}
+#myworks{
+    padding: 3% 24%;
 }
 a{
     text-decoration: none;
@@ -91,23 +96,29 @@ footer{
 .left{
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    margin: 0px 20px 50px 0px;
-    padding: 35px 45px 25px;
+    margin: 0px 2% 0 0;
+    padding: 10% 2% 2%;
     float: left;
     max-width: 250px;
     background-color: #373A36;
 }
 aside img{
     border: solid 3px black;
+    max-width: 100%;
 }
+
 .right{
+    margin: 0 20%;
     display:inline;
 }
+#rightID{
+    padding-right: 10%;
+}
 aside img{
-    margin-bottom: 40px;
+    margin-bottom: 3em;
 }
 #rocketImg{
-    margin-top: 60px;
+    margin-top: 50%;
 }
 .gallery{
     display: inline-block;
@@ -115,10 +126,10 @@ aside img{
 }
 .desc{
     text-align: center;
-    font-size: 25px;
+    font-size: 2.5  em;
 }
 div a img{
-    margin-left: 90px;
+    margin-left: 30%;
     border: solid 2px black;
 }
 div p{
@@ -130,7 +141,7 @@ div p{
     box-shadow: 5px 5px 4px #373A36;
 }
 .programmingpage{
-    margin-left: 177px;
+    margin-left: 10%;
 }
 h2 img{
     max-width: 100%;
@@ -139,7 +150,7 @@ h2 img{
 }
 h2 a{
     border-radius: 0 0 25% 25%;
-    padding: 8px 50px;
+    padding: 1% 4%;
     background-color: #373A36;
 }
 p>a{
