@@ -32,6 +32,7 @@ nav a:hover{
     opacity: 1;
 }
 .current{
+    opacity: 1;
     background-color: #E6E2DD;
     color: #373A36;;
 }
@@ -68,20 +69,23 @@ main p{
 footer{
     text-align: center;
 }
-main>a{
-    border-radius: 5%;
+.works{
+    padding: 2% 1%;
     background-color: #373A36;
-    margin: 2%;
-    padding: 1em 2% 1em 2%;
-    display: inline-block;
+    border-radius: 5%;
+    align-content: center;
 }
-main>a img{
+.workscontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.worksCenter{
+    margin: 0% 4%;
+}
+a.works img{
     max-width: 100%;
     border: solid 3px black;
     border-radius: 50%; 
-}
-#myworks{
-    padding: 3% 24%;
 }
 a{
     text-decoration: none;
@@ -106,7 +110,6 @@ aside img{
     border: solid 3px black;
     max-width: 100%;
 }
-
 .right{
     margin: 0 20%;
     display:inline;
@@ -121,12 +124,15 @@ aside img{
     margin-top: 50%;
 }
 .gallery{
+    margin: 2% 2%;
+    padding: auto;
     display: inline-block;
     max-width: 100%;
 }
 .desc{
+    margin: 2% 2%;
     text-align: center;
-    font-size: 2.5  em;
+    font-size: 2em;
 }
 div a img{
     margin-left: 30%;
