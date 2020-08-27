@@ -103,16 +103,22 @@ footer{
     margin: 0px 2% 0 0;
     padding: 10% 2% 2%;
     float: left;
-    max-width: 250px;
+    min-width: 250px;
+    width: 10%;
     background-color: #373A36;
 }
-aside img{
+.left img{
+    display:block;
+    margin: 10% auto;
     border: solid 3px black;
     max-width: 100%;
 }
 .right{
-    margin: 0 20%;
-    display:inline;
+    overflow:auto;
+    font-size: 1em;
+    margin: 0 5%;
+    width: 55%;
+    display:inline-block;
 }
 #rightID{
     padding-right: 10%;
@@ -121,7 +127,25 @@ aside img{
     margin-bottom: 3em;
 }
 #rocketImg{
-    margin-top: 50%;
+    margin-top: 250%;
+}
+@media only screen and (min-width: 0px) and (max-width: 1035px){
+    #rocketImg{
+        margin-top: 450%;
+    }
+}
+@media only screen and (min-width: 1035px) and (max-width: 1223px){
+    #rocketImg{
+        margin-top: 370%;
+    }
+}
+@media only screen and (min-width: 1223px) and (max-width: 1450px){
+    #rocketImg{
+        margin-top: 290%;
+    }
+}
+#gamesSpace{
+    margin-top: 30%;
 }
 .gallery{
     margin: auto;
